@@ -1,7 +1,7 @@
 class Ship {
     constructor(game) {
         this.game = game;
-        this.animation = new Animator(ASSET_MANAGER.getAsset("./ship.png"), 0, 0, 47, 60, 4, 0.5);
+        this.animation = new Animator(ASSET_MANAGER.getAsset("ship.png"), 0, 0, 47, 60, 4, 0.5);
 
         this.facing = 0;//0 = down, 1 = left, 2 = right, 3 = up
         this.state = 0;//0 = normal, 1 = fast 
