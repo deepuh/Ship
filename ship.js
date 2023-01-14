@@ -32,7 +32,7 @@ class Ship {
         this.animations[2][1] = new Animator(ASSET_MANAGER.getAsset("./img/ship.png"), 0, 130, 47, 40, 4, .5);
         this.animations[3][1] = new Animator(ASSET_MANAGER.getAsset("./img/ship.png"), 0, 174, 47, 54, 4, .5);
 
-    }
+    };
 
     update() {
         this.x += this.game.clockTick * this.speed;
