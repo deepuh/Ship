@@ -2,7 +2,7 @@
 
 const ASSET_MANAGER = new AssetManager();
 
-ASSET_MANAGER.queueDownload("./ship.png");
+ASSET_MANAGER.queueDownload("ship.png");
 
 ASSET_MANAGER.downloadAll(() => {
     const canvas = document.getElementById("gameWorld");
